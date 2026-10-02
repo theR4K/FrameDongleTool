@@ -1,0 +1,23 @@
+# Build artifacts
+*.exe
+*.obj
+*.pdb
+*.ilk
+*.exp
+*.lib
+
+# VS / MSVC clutter
+.vs/
+.vscode/
+ipch/
+*.aps
+Debug/
+Release/
+x64/
+x86/
+
+# Editor / OS
+Thumbs.db
+Desktop.ini
+.DS_Store
+*.swp

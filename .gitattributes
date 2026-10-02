@@ -1,0 +1,9 @@
+# Normalize line endings in the repo; let git apply per-platform on checkout.
+* text=auto
+
+# Explicitly force the build script to CRLF on Windows.
+build.ps1 text eol=crlf
+
+# Binary outputs must never be touched.
+*.exe binary
+*.pdb binary
